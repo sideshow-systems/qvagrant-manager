@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle qvagrant-manager",
+        "command": "qvagrant-manager:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "qvagrant-manager",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "qvagrant-manager:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
